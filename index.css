@@ -1,0 +1,268 @@
+body{
+    margin:0 auto;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+margin: 0 auto;
+height:80px;
+background-color: tan;
+}
+
+
+footer{
+    height: 300px;
+    background-color:tan;
+    margin: 0 auto;
+}
+
+img{
+width: 100%;
+}
+
+
+h1{
+    font-family: 'Dancing Script', cursive; 
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+    font-size:60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+h4{
+    font-size:40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+/*Navbar*/
+
+
+.nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav ul{
+    margin: 0;
+    margin-left:100px;
+    padding:0;
+    list-style:none;
+   
+}
+
+
+.nav li{
+    display: inline-block;
+    margin-right: 60px;
+    margin-top:50px ;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: seashell;
+}
+
+
+
+/*homepage*/
+
+.intro{
+    margin:0 auto;
+    max-width: 100%;
+    height: 500px;
+    font-size: 80px;
+    text-align: center;
+    color: seashell;
+    font-family: 'Dancing Script', cursive;
+}
+.intro i{
+    font-size: 60px;
+    float: right;
+    margin-right: 40px;
+}
+
+.tasty{
+    display: flex;   
+    line-height: 0;
+    width: 100%;
+    
+}
+
+.taste{
+    flex:1;
+}
+
+.inspire{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    max-width: 100%;
+    height:200px;
+    background-color:seashell;
+    font-size: 25px;
+}
+
+inspire q{
+    font-stretch: expanded;
+}
+
+.food{
+    display: flex;
+    line-height: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 40px 0px 0px 0px;
+    background-color:seashell;
+    color: black;
+}
+
+.foodie{
+flex:1
+}
+
+
+
+
+.food2{
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    line-height: 0;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color:seashell;
+    color: black;
+}
+
+.foodie2{
+    flex: 1;
+    
+}
+
+
+/*footer css*/
+
+.info{
+    color: seashell;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    align-self: flex-end;
+    height: 300px;
+    font-size: 15px;
+}
+
+.time ul{
+    list-style:none;
+}
+
+.time li{
+    margin: 15px;
+    
+
+}
+
+.time{
+    flex:1; 
+    color: seashell; 
+}
+
+.name{
+    flex:1;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: auto;
+    
+}
+
+.address{
+    flex:1;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+
+/*---Our story css---*/
+
+
+.story{
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    height: 500px;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 40px;
+
+}
+
+.ourstory{
+    color: seashell;
+    flex: 1;
+
+    
+}
+
+.ourstory p{
+    font-size: 30px;
+}
+
+.storyhead{
+    color: seashell;
+    text-align: center;
+}
+
+.storyhead h2{
+    font-size: 50px;
+}
+
+
+   /*---Menu css---*/ 
+
+.yum {
+    display: flex;
+margin: 0 auto;
+height: 400px;
+}
+
+.yummy{
+    flex: 1;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color:seashell;
+    margin: 60px;
+    padding: 80px;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.quote{
+    font-size: 20px;
+    text-align: center;
+}
+
+article p{
+    font-size: 30px;
+    text-align: center;
+}
+
